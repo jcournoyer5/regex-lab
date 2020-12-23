@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
     
-   "Broom" =~ /\A[aeiou]/
+   "The rain in Spain lies mainly in the plain".match(/\A[aeiou]/)
 
 end
 
