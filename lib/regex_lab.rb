@@ -1,6 +1,7 @@
 def starts_with_a_vowel?(word)
-    
-   "The rain in Spain lies mainly in the plain".scan(/^[aeiouAEIOU]\w+/)
+ 
+  !!word.capitalize.match(/\A+[AEIOU]/)
+end
 
 end
 
