@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
     
-   "The rain in Spain lies mainly in the plain".match(/\b[aeiouAEIOU]/g)
+   "The rain in Spain lies mainly in the plain".match(/\b[aeiouAEIOU]/)
 
 end
 
